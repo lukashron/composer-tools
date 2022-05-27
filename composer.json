@@ -1,0 +1,21 @@
+{
+  "name": "lukashron/composer-tools",
+  "description": "Composer tools for developers.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lukas Hron",
+      "email": "info@lukashron.cz"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LukasHron\\Composer\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
